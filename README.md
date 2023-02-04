@@ -16,7 +16,7 @@
 
 # next_permutation(v.begin(), v.end) // 조합
 
-do
-{
-  printV(v);
-}while(next_permutation(v.begin(), v.end());
+    do
+    {
+      printV(v);
+    }while(next_permutation(v.begin(), v.end());

@@ -1,4 +1,3 @@
-# Algorithm_study
 
 <img src="https://capsule-render.vercel.app/api?type=transparent&color=auto&height=300&section=header&text=Algorithm_Study&fontSize=90" />
 

@@ -16,5 +16,7 @@
 
     do
     {
+    
       printV(v);
+      
     }while(next_permutation(v.begin(), v.end());

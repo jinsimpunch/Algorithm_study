@@ -12,7 +12,7 @@
     }
 
 
-# next_permutation(v.begin(), v.end) // 조합
+# next_permutation(v.begin(), v.end) // 순열 1 -> 많이 쓰이는 방식
 
     do
     {

@@ -20,3 +20,26 @@
       printV(v);
       
     }while(next_permutation(v.begin(), v.end());
+
+# makePermutation(int n, int r, int depth) // 순열 2 -> 재귀
+
+    void makepermutaion(int n, int r, int depth){
+    
+        if(r == depth){
+        
+            print(v);
+            
+            return;
+            
+        }
+        
+        for(int i = depth; i < n; i++){
+        
+            swap(v[i], v[depth]);
+            
+            makePermutaion(n, r, depth + 1);
+            
+            swap(v[i], v[depth]);
+        }
+        return;
+    }

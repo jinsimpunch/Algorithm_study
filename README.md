@@ -97,7 +97,7 @@
     
     빅오 표기법 : 최고 차항의 계수와 나머지 항을 제외시켜 표기하는 방법.
     
-    O(1) : 상수시간 시간복잡도 -> 입력크기와 상관업이 일정한 시간복잡도를 가지는 시간복잡도. ex) cin, cout
+    O(1) : 상수시간 시간복잡도 -> 입력크기와 상관업이 일정한 시간복잡도를 가지는 시간복잡도. ex) cin, cout, 간단한 비교if문, 배열 인덱스 참조
     
    <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fs0pox%2Fbtq6Mbphdwr%2Fs5K0D58hi5hiSrBuxmHHwk%2Fimg.png">
 

@@ -103,4 +103,12 @@
    <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fs0pox%2Fbtq6Mbphdwr%2Fs5K0D58hi5hiSrBuxmHHwk%2Fimg.png">
    
  
+ 
+ 
+ 
+# 공간복잡도
+
+    입력크기에 대해 알고리즘이 실행되는데 필요한 메모리의 양
+    
+    정적변수뿐 아니라 동적변수로 인해 필요하게 된 추가적인 메모리도 포함된다.
 

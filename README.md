@@ -78,3 +78,21 @@
 
             return ret;
         }
+        
+        
+# unique() //중복 요소 제거
+
+    vector<int> v = { 2, 2, 1, 1, 2, 2, 3, 3, 2, 3, 4, 5};  //이렇게 순서가 바뀐 상태라면 sort()를 해주는 것이 좋다.
+    
+    sort(v.begin(), v.end());
+    
+    unique(v.begin(), v.end()); // unique()는 중복 제거 후 마지막의 다음 이터레이터를 리턴한다.
+    
+    erase(unique(v.begin(), v.end()), end()); // unique() 마지막 다음 이터레이터를 리턴하기 때문에 erase()를 하면 불필요한 요소를 지울 수 있다.
+    
+    
+
+
+
+
+

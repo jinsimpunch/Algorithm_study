@@ -49,3 +49,32 @@
     
 # 조합 재귀, 3중첩 for문
   
+  
+  
+  
+  
+  
+# split //문자열 나누기
+
+   vector<string> split(string input, string delimiter){
+    
+        vector<string> ret;
+    
+        long long pos = 0;
+    
+        string token = "";    
+    
+        while((pos = input.find(delimiter)) != string::npos){
+            
+            toekn=input.substr(0,pos);
+            
+            ret.push_back(token);
+    
+            input.erase(0, pos);
+    
+        }
+    
+        ret.push_back(input);
+    
+        return ret;
+    }

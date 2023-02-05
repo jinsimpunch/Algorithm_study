@@ -70,7 +70,7 @@
 
                 ret.push_back(token);
 
-                input.erase(0, pos);
+                input.erase(0, pos + delimiter.length());
 
             }
 
